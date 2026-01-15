@@ -1,0 +1,21 @@
+[package]
+name = "relnotify"
+version = "1.0.0"
+edition = "2021"
+description = "A library for checking GitHub releases and notifying about updates"
+license = "MIT"
+repository = "https://github.com/captainsafia/gh-release-update-notifier-rs"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2.0"
+tokio = { version = "1.0", features = ["fs"] }
+url = "2.5"
+
+[dev-dependencies]
+tokio = { version = "1.0", features = ["full", "test-util"] }
+wiremock = "0.6"
+tempfile = "3.15"
