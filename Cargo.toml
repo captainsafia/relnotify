@@ -1,10 +1,10 @@
 [package]
 name = "relnotify"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 description = "A library for checking GitHub releases and notifying about updates"
 license = "MIT"
-repository = "https://github.com/captainsafia/gh-release-update-notifier-rs"
+repository = "https://github.com/captainsafia/relnotify"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
