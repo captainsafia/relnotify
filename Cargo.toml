@@ -1,6 +1,6 @@
 [package]
 name = "relnotify"
-version = "1.0.0"
+version = "0.0.1"
 edition = "2021"
 description = "A library for checking GitHub releases and notifying about updates"
 license = "MIT"
